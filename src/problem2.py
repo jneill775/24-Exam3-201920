@@ -37,8 +37,8 @@ def run_test_shape():
 
 def shape(n):
 
-    for k in range(n):
-        for j in range(n + 1):
+    for k in range(n-1, -1, -1):
+        for j in range(k + 1):
             print(k+1,end='')
         print()
 
